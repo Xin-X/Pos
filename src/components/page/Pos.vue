@@ -122,7 +122,7 @@
                     </el-tab-pane>
                     <el-tab-pane label="套餐">
                         <ul class="cookList">
-                            <li v-for="foods in type3Goods" @click="addOrderList(goods)">
+                            <li v-for="foods in type3Goods" @click="addOrderList(foods)">
                                 <span class="foodImg"><img :src="foods.goodsImg" width="100%"></span>
                                 <span class="foodName">{{foods.goodsName}}</span>
                                 <span class="foodPrice">￥{{foods.price}}元</span>
